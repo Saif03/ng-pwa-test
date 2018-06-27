@@ -1,0 +1,10 @@
+<div style="padding: 15px">
+  <button (click)="addList()">add into List</button>
+  <button (click)="removeList()">remove from List</button>
+  <button (click)="updateList()">update List</button>
+  <button (click)="cloneList()">clone List</button>
+</div>
+
+<div style="padding: 15px">
+  {{list | json}}
+</div>

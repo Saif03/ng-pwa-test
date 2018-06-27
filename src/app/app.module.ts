@@ -5,6 +5,10 @@ import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { WelcomeComponent } from './welcome.component';
+
+import { DifferTestComponent } from './differ-test/differ-test.component';
+import { DifferListComponent } from './differ-test/differ-list/differ-list.component';
+
 const route: Routes = [
   {
     path: '',
@@ -22,6 +26,8 @@ const route: Routes = [
     AppComponent,
     WelcomeComponent,
     HomeComponent,
+    DifferTestComponent,
+    DifferListComponent
   ],
   imports: [
     BrowserModule
